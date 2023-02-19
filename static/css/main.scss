@@ -1,0 +1,56 @@
+@import 'fonts.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+.main {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.border_red {
+  border-color: #ce252b !important;
+}
+
+.two_fields {
+  width: 100%;
+  display: flex;
+}
+
+.two_fileds-item {
+  width: 50%;
+
+  &:first-child {
+    margin-right: 20px;
+  }
+}
+
+.two_fileds-item.button {
+  margin-top: 20px;
+}
+
+.line {
+  background:#D5D8DC;
+  height: 1px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.required_char {
+  font-size: 22px;
+  margin: 5px 5px;
+  color: #FF5400;
+  
+}
